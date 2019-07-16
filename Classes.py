@@ -14,7 +14,7 @@ class Person:
         print ("Walking away")
         
         
-First_person = Person(input("Enter your name: "),int(input("Enter your age: ")))
+First_person = Person("Victor",12)
 print("Your name is ", First_person.name)
 print("Your age is ", First_person.age)
 First_person.speak()
